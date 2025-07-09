@@ -1,0 +1,12 @@
+@use 'src/assets/cores.scss' as *; // Importa as cores definidas
+
+.cardsWrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  width: 100dvw;
+
+  background-color: $cor-geral;
+}

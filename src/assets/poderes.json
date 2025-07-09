@@ -1,0 +1,470 @@
+[
+  {
+    "nome": "Acuidade com arma",
+    "tipo": "Combate",
+    "requisitos": { "tipo": "atributo", "nome": "Des", "valor": 1 },
+    "texto": "Quando usa uma arma corpo a corpo leve ou uma arma de arremesso, você pode usar sua Destreza em vez de Força nos testes de ataque e rolagens de dano.",
+    "ref": { "Manual": "Manual Básico", "pagina": 124 }
+  },
+  {
+    "nome": "Arma Secundária Grande",
+    "tipo": "Combate",
+    "requisitos": {
+      "tipo": "poder",
+      "nome": "Estilo de Duas Armas",
+      "treinado": true
+    },
+    "texto": "Você pode empunhar duas armas de uma mão com o poder Estilo de Duas Armas.",
+    "ref": { "Manual": "Manual Básico", "pagina": 124 }
+  },
+  {
+    "nome": "Arremesso Potente",
+    "tipo": "Combate",
+    "requisitos": [
+      {
+        "tipo": "atributo",
+        "nome": "For",
+        "valor": 1
+      },
+      {
+        "tipo": "poder",
+        "nome": "Estilo de Arremesso",
+        "treinado": true
+      }
+    ],
+    "texto": "Quando usa uma arma de arremesso, você pode usar sua Força em vez de Destreza nos testes de ataque. Se você possuir o poder Ataque Poderoso, poderá usá-lo com armas de arremesso.",
+    "ref": { "Manual": "Manual Básico", "pagina": 124 }
+  },
+  {
+    "nome": "Arremesso Múltiplo",
+    "tipo": "Combate",
+    "requisitos": [
+      {
+        "tipo": "atributo",
+        "nome": "Des",
+        "valor": 1
+      },
+      {
+        "tipo": "poder",
+        "nome": "Estilo de Arremesso",
+        "treinado": true
+      }
+    ],
+    "texto": "Uma vez por rodada, quando faz um ataque com uma arma de arremesso, você pode gastar 1 PM para fazer um ataque adicional contra o mesmo alvo, arremessando outra arma de arremesso.",
+    "ref": { "Manual": "Manual Básico", "pagina": 124 }
+  },
+  {
+    "nome": "Ataque com Escudo",
+    "tipo": "Combate",
+    "requisitos": {
+      "tipo": "poder",
+      "nome": "Estilo de Arma e Escudo",
+      "treinado": true
+    },
+    "texto": "Uma vez por rodada, se estiver empunhando um escudo e fizer a ação agredir, você pode gastar 1 PM para fazer um ataque corpo a corpo extra com o escudo. Este ataque não faz você perder o bônus do escudo na Defesa.",
+    "ref": { "Manual": "Manual Básico", "pagina": 124 }
+  },
+  {
+    "nome": "Ataque Pesado",
+    "tipo": "Combate",
+    "requisitos": {
+      "tipo": "poder",
+      "nome": "Estilo de Duas Mãos",
+      "treinado": true
+    },
+    "texto": "Quando faz um ataque corpo a corpo com uma arma de duas mãos, você pode pagar 1 PM. Se fizer isso e acertar o ataque, além do dano você faz uma manobra derrubar ou empurrar contra o alvo como uma ação livre (use o resultado do ataque como o teste de manobra).",
+    "ref": { "Manual": "Manual Básico", "pagina": 124 }
+  },
+  {
+    "nome": "Ataque Poderoso",
+    "tipo": "Combate",
+    "requisitos": { "tipo": "atributo", "nome": "For", "valor": 1 },
+    "texto": "Sempre que faz um ataque corpo a corpo, você pode sofrer –2 no teste de ataque para receber +5 na rolagem de dano.",
+    "ref": { "Manual": "Manual Básico", "pagina": 124 }
+  },
+  {
+    "nome": "Ataque Preciso",
+    "tipo": "Combate",
+    "requisitos": { "tipo": "atributo", "nome": "Des", "valor": 1 },
+    "texto": "Se estiver empunhando uma arma corpo a corpo em uma das mãos e nada na outra, você recebe +2 namargem de ameaça e +1 no multiplicador de crítico com ela",
+    "ref": { "Manual": "Manual Básico", "pagina": 124 }
+  },
+  {
+    "nome": "Bloqueio com Escudo",
+    "tipo": "Combate",
+    "requisitos": {
+      "tipo": "poder",
+      "nome": "Estilo de Arma e Escudo",
+      "treinado": true
+    },
+    "texto": "Quando sofre dano, você pode gastar 1 PM para receber redução de dano igual ao bônus na Defesa que seu escudo fornece contra este dano. Você só pode usar este poder se estiver usando um escudo",
+    "ref": { "Manual": "Manual Básico", "pagina": 124 }
+  },
+  {
+    "nome": "Carga de Cavalaria",
+    "tipo": "Combate",
+    "requisitos": { "tipo": "poder", "nome": "Ginete", "treinado": true },
+    "texto": "Quando faz uma investida montada, você causa +2d8 pontos de dano. Além disso, pode continuar se movendo depois do ataque. Você deve se mover em linha reta e seu movimento máximo ainda é o dobro do seu deslocamento",
+    "ref": { "Manual": "Manual Básico", "pagina": 124 }
+  },
+  {
+    "nome": "Combate Defensivo",
+    "tipo": "Combate",
+    "requisitos": { "tipo": "atributo", "nome": "Int", "valor": 1 },
+    "texto": "Quando usa a ação agredir, você pode usar este poder. Se fizer isso, até seu próximo turno, sofre –2 em todos os testes de ataque, mas recebe +5 na Defesa",
+    "ref": { "Manual": "Manual Básico", "pagina": 125 }
+  },
+  {
+    "nome": "Derrubar Aprimorado",
+    "tipo": "Combate",
+    "requisitos": {
+      "tipo": "poder",
+      "nome": "Combate Defensivo",
+      "treinado": true
+    },
+    "texto": "Você recebe +2 em testes de ataque para derrubar. Quando derruba uma criatura com essa manobra, pode gastar 1 PM para fazer um ataque extra contra ela.",
+    "ref": { "Manual": "Manual Básico", "pagina": 125 }
+  },
+  {
+    "nome": "Desarmar Aprimorado",
+    "tipo": "Combate",
+    "requisitos": {
+      "tipo": "poder",
+      "nome": "Combate Defensivo",
+      "treinado": true
+    },
+    "texto": "Você recebe +2 em testes de ataque para desarmar. Quando desarma uma criatura, pode gastar 1 PM para arremessar a arma dela para longe. Para definir onde a arma cai, role 1d8 para a direção (sendo “1” diretamente à sua frente, “2” à frente e à direita e assim por diante) e 1d6 para a distância (medida em quadrados de 1,5m a partir da criatura desarmada).",
+    "ref": { "Manual": "Manual Básico", "pagina": 125 }
+  },
+  {
+    "nome": "Disparo Preciso",
+    "tipo": "Combate",
+    "requisitos": {
+      "OR": [
+        { "tipo": "poder", "nome": "Estilo de Disparo", "treinado": true },
+        { "tipo": "poder", "nome": "Estilo de Arremesso", "treinado": true }
+      ]
+    },
+    "texto": "Você pode fazer ataques à distância contra oponentes envolvidos em combate corpo a corpo sem sofrer a penalidade de –5 no teste de ataque.",
+    "ref": { "Manual": "Manual Básico", "pagina": 125 }
+  },
+  {
+    "nome": "Disparo Rápido",
+    "tipo": "Combate",
+    "requisitos": [
+      {
+        "tipo": "atributo",
+        "nome": "Des",
+        "valor": 1
+      },
+      {
+        "tipo": "poder",
+        "nome": "Estilo de Disparo",
+        "treinado": true
+      }
+    ],
+    "texto": "Se estiver empunhando uma arma de disparo que possa recarregar como ação livre e gastar uma ação completa para agredir, pode fazer um ataque adicional com ela. Se fizer isso, sofre –2 em todos os testes de ataque até o seu próximo turno",
+    "ref": { "Manual": "Manual Básico", "pagina": 125 }
+  },
+  {
+    "nome": "Empunhadura Poderosa",
+    "tipo": "Combate",
+    "requisitos": { "tipo": "atributo", "nome": "For", "valor": 3 },
+    "texto": "Ao usar uma arma feita para uma categoria de tamanho maior que a sua, a penalidade que você sofre nos testes de ataque diminui para –2 (normalmente, usar uma arma de uma categoria de tamanho maior impõe –5 nos testes de ataque).",
+    "ref": { "Manual": "Manual Básico", "pagina": 125 }
+  },
+  {
+    "nome": "Encouraçado",
+    "tipo": "Combate",
+    "requisitos": { "tipo": "proficiencia", "nome": "Armaduras Pesadas" },
+    "texto": "Se estiver usando uma armadura pesada, você recebe +2 na Defesa. Esse bônus aumenta em +2 para cada outro poder que você possua que tenha Encouraçado como pré-requisito.",
+    "ref": { "Manual": "Manual Básico", "pagina": 125 }
+  },
+  {
+    "nome": "Esquiva",
+    "tipo": "Combate",
+    "requisitos": { "tipo": "atributo", "nome": "Des", "valor": 1 },
+    "texto": "Você recebe +2 na Defesa e Reflexos.",
+    "ref": { "Manual": "Manual Básico", "pagina": 125 }
+  },
+  {
+    "nome": "Estilo de Arma e Escudo",
+    "tipo": "Combate",
+    "requisitos": [
+      { "tipo": "pericia", "nome": "Luta", "treinado": true },
+      { "tipo": "proficiencia", "nome": "Usar Escudos" }
+    ],
+    "texto": "Se você estiver usando um escudo, o bônus na Defesa que ele fornece aumenta em +2.",
+    "ref": { "Manual": "Manual Básico", "pagina": 125 }
+  },
+  {
+    "nome": "Estilo de Arma Longa",
+    "tipo": "Combate",
+    "requisitos": [
+      { "tipo": "atributo", "nome": "For", "valor": 1 },
+      { "tipo": "pericia", "nome": "Luta" }
+    ],
+    "texto": "Você recebe +2 em testes de ataque com armas alongadas e pode atacar alvos adjacentes com essas armas",
+    "ref": { "Manual": "Manual Básico", "pagina": 125 }
+  },
+  {
+    "nome": "Estilo de Arremesso",
+    "tipo": "Combate",
+    "requisitos": { "tipo": "pericia", "nome": "Pontaria" },
+    "texto": "Você pode sacar armas de arremesso como uma ação livre e recebe +2 nas rolagens de dano com elas. Se também possuir o poder Saque Rápido, também recebe +2 nos testes de ataque com essas armas.",
+    "ref": { "Manual": "Manual Básico", "pagina": 125 }
+  },
+  {
+    "nome": "Estilo de Disparo",
+    "tipo": "Combate",
+    "requisitos": { "tipo": "pericia", "nome": "Pontaria" },
+    "texto": "Se estiver usando uma arma de disparo, você soma sua Destreza nas rolagens de dano.",
+    "ref": { "Manual": "Manual Básico", "pagina": 125 }
+  },
+  {
+    "nome": "Estilo de Duas Armas",
+    "tipo": "Combate",
+    "requisitos": { "tipo": "atributo", "nome": "Des", "valor": 1 },
+    "texto": "Você pode usar uma arma de uma mão em cada mão.",
+    "ref": { "Manual": "Manual Básico", "pagina": 125 }
+  },
+  {
+    "nome": "Estilo de Duas Mãos",
+    "tipo": "Combate",
+    "requisitos": { "tipo": "atributo", "nome": "For", "valor": 1 },
+    "texto": "Você pode usar uma arma de duas mãos em uma mão só, mas sofre –2 nos testes de ataque com ela.",
+    "ref": { "Manual": "Manual Básico", "pagina": 128 }
+  },
+  {
+    "nome": "Estilo de Uma Arma",
+    "tipo": "Combate",
+    "requisitos": { "tipo": "pericia", "nome": "Luta" },
+    "texto": "Se estiver usando uma arma corpo a corpo em uma das mãos e nada na outra, você recebe +2 na Defesa e nos testes de ataque com essa arma (exceto ataques desarmados).",
+    "ref": { "Manual": "Manual Básico", "pagina": 128 }
+  },
+  {
+    "nome": "Estilo Desarmado",
+    "tipo": "Combate",
+    "requisitos": { "tipo": "pericia", "nome": "Luta" },
+    "texto": "Seus ataques desarmados causam 1d6 pontos de dano e podem causar dano letal ou não letal (sem penalidades).",
+    "ref": { "Manual": "Manual Básico", "pagina": 128 }
+  },
+  {
+    "nome": "Fanático",
+    "tipo": "Combate",
+    "requisitos": [
+      { "tipo": "nivel", "valor": 12 },
+      { "tipo": "poder", "nome": "Encouraçado", "treinado": true }
+    ],
+    "texto": "Seu deslocamento não é reduzido por usar armaduras pesadas.",
+    "ref": { "Manual": "Manual Básico", "pagina": 128 }
+  },
+  {
+    "nome": "Finta Aprimorada",
+    "tipo": "Combate",
+    "requisitos": {
+      "tipo": "pericia",
+      "nome": "Enganacao",
+      "treinado": true
+    },
+    "texto": "Você recebe +2 em testes de Enganação para fintar e pode fintar como uma ação de movimento",
+    "ref": { "Manual": "Manual Básico", "pagina": 128 }
+  },
+  {
+    "nome": "Foco em Arma",
+    "tipo": "Combate",
+    "requisitos": { "tipo": "proficiencia", "nome": "Arma Escolhida" },
+    "texto": "Escolha uma arma. Você recebe +2 em testes de ataque com essa arma. Você pode escolher este poder outras vezes para armas diferentes.",
+    "ref": { "Manual": "Manual Básico", "pagina": 128 }
+  },
+  {
+    "nome": "Ginete",
+    "tipo": "Combate",
+    "requisitos": { "tipo": "pericia", "nome": "Cavalgar", "treinado": true },
+    "texto": "Você passa automaticamente em testes de Cavalgar para não cair da montaria quando sofre dano. Além disso, não sofre penalidades para atacar à distância ou lançar magias quando montado",
+    "ref": { "Manual": "Manual Básico", "pagina": 128 }
+  },
+  {
+    "nome": "Inexpurgável",
+    "tipo": "Combate",
+    "requisitos": [
+      { "tipo": "poder", "nome": "Encouraçado", "treinado": true },
+      { "tipo": "nivel", "valor": 6 }
+    ],
+    "texto": "Se estiver usando uma armadura pesada, você recebe +2 em todos os testes de resistência.",
+    "ref": { "Manual": "Manual Básico", "pagina": 128 }
+  },
+  {
+    "nome": "Mira Apurada",
+    "tipo": "Combate",
+    "requisitos": [
+      { "tipo": "atributo", "nome": "Sab", "valor": 1 },
+      { "tipo": "poder", "nome": "Disparo Preciso" }
+    ],
+    "texto": "Quando usa a ação mirar, você recebe +2 em testes de ataque e na margem de ameaça com ataques à distância até o fim do turno.",
+    "ref": { "Manual": "Manual Básico", "pagina": 128 }
+  },
+  {
+    "nome": "Piqueiro",
+    "tipo": "Combate",
+    "requisitos": { "tipo": "poder", "nome": "Estilo de Arma Longa" },
+    "texto": "Uma vez por rodada, se estiver empunhando uma arma alongada e um inimigo entrar voluntariamente em seu alcance corpo a corpo, você pode gastar 1 PM para fazer um ataque corpo a corpo contra este oponente com esta arma. Se o oponente tiver se aproximado fazendo uma investida, seu ataque causa dois dados de dano extra do mesmo tipo",
+    "ref": { "Manual": "Manual Básico", "pagina": 128 }
+  },
+  {
+    "nome": "Presença Aterradora",
+    "tipo": "Combate",
+    "requisitos": {
+      "tipo": "pericia",
+      "nome": "Intimidacao",
+      "treinado": true
+    },
+    "texto": "Você pode gastar uma ação padrão e 1 PM para assustar todas as criaturas a sua escolha em alcance curto. Veja a perícia Intimidação para as regras de assustar.",
+    "ref": { "Manual": "Manual Básico", "pagina": 128 }
+  },
+  {
+    "nome": "Proficiência",
+    "tipo": "Combate",
+    "texto": "Escolha uma proficiência: armas marciais, armas de fogo, armaduras pesadas ou escudos (se for proficiente em armas marciais, você também pode escolher armas exóticas). Você recebe essa proficiência. Você pode escolher este poder outras vezes para proficiências diferentes.",
+    "ref": { "Manual": "Manual Básico", "pagina": 129 }
+  },
+  {
+    "nome": "Quebrar Aprimorado",
+    "tipo": "Combate",
+    "requisitos": {
+      "tipo": "poder",
+      "nome": "Ataque Poderoso",
+      "treinado": true
+    },
+    "texto": "Você recebe +2 em testes de ataque para quebrar. Quando reduz os PV de uma arma para 0 ou menos, você pode gastar 1 PM para realizar um ataque extra contra o usuário dela. O ataque adicional usa os mesmos valores de ataque e dano, mas os dados devem ser rolados novamente",
+    "ref": { "Manual": "Manual Básico", "pagina": 129 }
+  },
+  {
+    "nome": "Reflexos de Combate",
+    "tipo": "Combate",
+    "requisitos": { "tipo": "atributo", "nome": "Des", "valor": 1 },
+    "texto": "Você ganha uma ação de movimento extra no seu primeiro turno de cada combate.",
+    "ref": { "Manual": "Manual Básico", "pagina": 129 }
+  },
+  {
+    "nome": "Saque Rápido",
+    "tipo": "Combate",
+    "requisitos": { "tipo": "pericia", "nome": "Iniciativa", "treinado": true },
+    "texto": "Você recebe +2 em Iniciativa e pode sacar ou guardar itens como uma ação livre (em vez de ação de movimento). Além disso, a ação que você gasta para recarregar armas de disparo diminui em uma categoria (ação completa para padrão, padrão para movimento, movimento para livre).",
+    "ref": { "Manual": "Manual Básico", "pagina": 129 }
+  },
+  {
+    "nome": "Trespassar",
+    "tipo": "Combate",
+    "requisitos": {
+      "tipo": "poder",
+      "nome": "Ataque Poderoso",
+      "treinado": true
+    },
+    "texto": "Quando você faz um ataque corpo a corpo e reduz os pontos de vida do alvo para 0 ou menos, pode gastar 1 PM para fazer um ataque adicional contra outra criatura dentro do seu alcance.",
+    "ref": { "Manual": "Manual Básico", "pagina": 129 }
+  },
+  {
+    "nome": "Vitalidade",
+    "tipo": "Combate",
+    "requisitos": { "tipo": "atributo", "nome": "Con", "valor": 1 },
+    "texto": "Você recebe +1 PV por nível de personagem e +2 em Fortitude.",
+    "ref": { "Manual": "Manual Básico", "pagina": 129 }
+  },
+  {
+    "nome": "Acrobático",
+    "tipo": "Destino",
+    "requisitos": { "tipo": "atributo", "nome": "Des", "valor": 2 },
+    "texto": "Você pode usar sua Destreza em vez de Força em testes de Atletismo. Além disso, terreno difícil não reduz seu deslocamento nem o impede de realizar investidas.",
+    "ref": { "Manual": "Manual Básico", "pagina": 129 }
+  },
+  {
+    "nome": "Ao Sabor do Destino",
+    "tipo": "Destino",
+    "texto": "Confiando em suas próprias habilidades (ou em sua própria sorte), você abre mão de usar itens mágicos. Sua autoconfiança fornece diversos benefícios, de acordo com seu nível de personagem e a tabela da página seguinte. Os bônus não são cumulativos (os bônus em atributos e perícias devem ser aplicados num atributo ou perícia diferente a cada vez). \nSe você utilizar voluntariamente qualquer item mágico (exceto poções), perde o benefício deste poder até o fim da aventura. Você ainda pode lançar magias, receber magias benéficas ou beneficiar-se de itens usados por outros — por exemplo, pode “ir de carona” em um tapete voador, mas não pode você mesmo conduzi-lo",
+    "tabela": {
+      "headers": ["Nível", "Efeito"],
+      "rows": [
+        [6, "+2 em uma perícia"],
+        [7, "+1 na Defesa"],
+        [8, "+1 nas rolagens de dano"],
+        [9, "+1 em um atributo"],
+        [11, "+2 em uma perícia"],
+        [12, "+2 na Defesa"],
+        [13, "+2 nas rolagens de dano"],
+        [14, "+1 em um atributo"],
+        [16, "+2 em uma perícia"],
+        [17, "+3 na Defesa"],
+        [18, "+3 nas rolagens de dano"],
+        [19, "+1 em um atributo"]
+      ]
+    },
+    "ref": { "Manual": "Manual Básico", "pagina": 130 }
+  },
+  {
+    "nome": "Aparência Inofensiva",
+    "tipo": "Destino",
+    "requisitos": { "tipo": "atributo", "nome": "Car", "valor": 1 },
+    "texto": "A primeira criatura inteligente (Int –3 ou maior) que atacar você em uma cena deve fazer um teste de Vontade (CD Car). Se falhar, perderá sua ação. Este poder só funciona uma vez por cena; independentemente de a criatura falhar ou não no teste, poderá atacá-lo nas rodadas seguintes.",
+    "ref": { "Manual": "Manual Básico", "pagina": 130 }
+  },
+  {
+    "nome": "Atlético",
+    "tipo": "Destino",
+    "requisitos": { "tipo": "atributo", "nome": "For", "valor": 2 },
+    "texto": "Você recebe +2 em Atletismo e +3m em seu deslocamento.",
+    "ref": { "Manual": "Manual Básico", "pagina": 130 }
+  },
+  {
+    "nome": "Atraente",
+    "tipo": "Destino",
+    "requisitos": { "tipo": "atributo", "nome": "Car", "valor": 1 },
+    "texto": "Você recebe +2 em testes de perícias baseadas em Carisma contra criaturas que possam se sentir fisicamente atraídas por você.",
+    "ref": { "Manual": "Manual Básico", "pagina": 130 }
+  },
+  {
+    "nome": "Comandar",
+    "tipo": "Destino",
+    "requisitos": { "tipo": "atributo", "nome": "Car", "valor": 1 },
+    "texto": "Você pode gastar uma ação de movimento e 1 PM para gritar ordens para seus aliados em alcance médio. Eles recebem +1 em testes de perícia até o fim da cena.",
+    "ref": { "Manual": "Manual Básico", "pagina": 130 }
+  },
+  {
+    "nome": "Costas Largas",
+    "tipo": "Destino",
+    "requisitos": [
+      { "tipo": "atributo", "nome": "Con", "valor": 1 },
+      { "tipo": "atributo", "nome": "For", "valor": 1 }
+    ],
+    "texto": "Seu limite de carga aumenta em 5 espaços e você pode se beneficiar de um item vestido adicional.",
+    "ref": { "Manual": "Manual Básico", "pagina": 130 }
+  },
+  {
+    "nome": "Celebrar Ritual",
+    "tipo": "Magia",
+    "requisitos": [
+      { "tipo": "nivel", "valor": 8 },
+      {
+        "OR": [
+          { "tipo": "pericia", "nome": "Misticismo", "treinado": true },
+          { "tipo": "pericia", "nome": "Religiao", "treinado": true }
+        ]
+      }
+    ],
+    "texto": "Você pode lançar magias como rituais. Isso dobra seu limite de PM, mas muda a execução para 1 hora (ou o dobro, o que for maior) e exige um gasto de T$ 10 por PM gasto (em incensos, oferendas...). Assim, um arcanista de 8º nível pode lançar uma magia de 16 PM gastando T$ 160.",
+    "ref": { "Manual": "Manual Básico", "pagina": 131 }
+  },
+  {
+    "nome": "Afinidade com a Tormenta",
+    "subtitulo": "Aharadak",
+    "tipo": "Poder Concedido",
+    "texto": "Você recebe +10 em testes de resistência contra efeitos da Tormenta, de suas criaturas e de devotos de Aharadak. Além disso, seu primeiro poder da Tormenta não conta para a perda de Carisma.",
+    "ref": { "Manual": "Manual Básico", "pagina": 132 }
+  },
+  {
+    "nome": "Anatomia Insana",
+    "tipo": "Tormenta",
+    "texto": "Você tem 25% de chance (resultado '1' em 1d4) de ignorar o dano adicional de um acerto crítico ou ataque furtivo. A chance aumenta em +25% para cada dois outros poderes da Tormenta que possui.",
+    "ref": { "Manual": "Manual Básico", "pagina": 136 }
+  }
+]
