@@ -440,6 +440,126 @@
     "ref": { "Manual": "Manual Básico", "pagina": 130 }
   },
   {
+    "nome": "Foco em Perícia",
+    "tipo": "Destino",
+    "requisitos": {
+      "tipo": "proficiencia",
+      "nome": "Perícia Escolhida",
+      "treinado": true
+    },
+    "texto": "Escolha uma perícia. Quando faz um teste dessa perícia, você pode gastar 1 PM para rolar dois dados e usar o melhor resultado. Você pode escolher este poder outras vezes para perícias diferentes. Este poder não pode ser aplicado em Luta e Pontaria (mas veja Foco em Arma).",
+    "ref": { "Manual": "Manual Básico", "pagina": 130 }
+  },
+  {
+    "nome": "Inventário Organizado",
+    "tipo": "Destino",
+    "requisitos": { "tipo": "atributo", "nome": "Int", "valor": 1 },
+    "texto": "Você soma sua Inteligência no limite de espaços que pode carregar. Para você, itens muito leves ou pequenos, que normalmente ocupam meio espaço, em vez disso ocupam 1/4 de espaço.",
+    "ref": { "Manual": "Manual Básico", "pagina": 130 }
+  },
+  {
+    "nome": "Investigador",
+    "tipo": "Destino",
+    "requisitos": { "tipo": "atributo", "nome": "Int", "valor": 1 },
+    "texto": "Você recebe +2 em Investigação e soma sua Inteligência em Intuição.",
+    "ref": { "Manual": "Manual Básico", "pagina": 130 }
+  },
+  {
+    "nome": "Lobo Solitário",
+    "tipo": "Destino",
+    "texto": "Você recebe +1 em testes de perícia e Defesa se estiver sem nenhum aliado em alcance curto. Você não sofre penalidade por usar Cura em si mesmo",
+    "ref": { "Manual": "Manual Básico", "pagina": 130 }
+  },
+  {
+    "nome": "Medicina",
+    "tipo": "Destino",
+    "requisitos": [
+      { "tipo": "atributo", "nome": "Sab", "valor": 1 },
+      { "tipo": "pericia", "nome": "Cura", "treinado": true }
+    ],
+    "texto": "Você pode gastar uma ação completa para fazer um teste de Cura (CD 15) em uma criatura. Se você passar, ela recupera 1d6 PV, mais 1d6 para cada 5 pontos pelos quais o resultado do teste exceder a CD (2d6 com um resultado 20, 3d6 com um resultado 25 e assim por diante). Você só pode usar este poder uma vez por dia numa mesma criatura",
+    "ref": { "Manual": "Manual Básico", "pagina": 130 }
+  },
+  {
+    "nome": "Parceiro",
+    "tipo": "Destino",
+    "requisitos": [
+      { "tipo": "nivel", "valor": 5 },
+      {
+        "OR": [
+          {
+            "tipo": "pericia",
+            "nome": "Adestramento",
+            "treinado": true,
+            "descricao": "(parceiro animal)"
+          },
+          {
+            "tipo": "pericia",
+            "nome": "Diplomacia",
+            "treinado": true,
+            "descricao": "(parceiro humanoide)"
+          }
+        ]
+      }
+    ],
+    "texto": "Você possui um parceiro animal ou humanoide que o acompanha em aventuras. Escolha os detalhes dele, como nome, aparência e personalidade. Em termos de jogo, é um parceiro iniciante de um tipo a sua escolha (veja a página 260). O parceiro obedece às suas ordens e se arrisca para ajudá-lo, mas, se for maltratado, pode parar de segui-lo (de acordo com o mestre). Se perder seu parceiro, você recebe outro no início da próxima aventura.",
+    "ref": { "Manual": "Manual Básico", "pagina": 130 }
+  },
+  {
+    "nome": "Sentidos Aguçados",
+    "tipo": "Destino",
+    "requisitos": [
+      { "tipo": "atributo", "nome": "Sab", "valor": 1 },
+      { "tipo": "pericia", "nome": "Percepcao", "treinado": true }
+    ],
+    "texto": "Você recebe +2 em Percepção, não fica desprevenido contra inimigos que não possa perceber e, sempre que erra um ataque devido a camuflagem, pode rolar mais uma vez o dado da chance de falha.",
+    "ref": { "Manual": "Manual Básico", "pagina": 130 }
+  },
+  {
+    "nome": "Sortudo",
+    "tipo": "Destino",
+    "texto": " Quando faz um teste, você pode gastar 3 PM para rolá-lo novamente",
+    "ref": { "Manual": "Manual Básico", "pagina": 131 }
+  },
+  {
+    "nome": "Surto Heroico",
+    "tipo": "Destino",
+    "texto": "Uma vez por rodada, você pode gastar 5 PM para realizar uma ação padrão ou de movimento adicional.",
+    "ref": { "Manual": "Manual Básico", "pagina": 131 }
+  },
+  {
+    "nome": "Torcida",
+    "tipo": "Destino",
+    "requisitos": { "tipo": "atributo", "nome": "Car", "valor": 1 },
+    "texto": "Você recebe +2 em testes de perícia e Defesa quando tem a torcida a seu favor. Entenda-se por “torcida” qualquer número de criaturas inteligentes em alcance médio que não esteja realizando nenhuma ação além de torcer por você.",
+    "ref": { "Manual": "Manual Básico", "pagina": 131 }
+  },
+  {
+    "nome": "Treinamento em Perícia",
+    "tipo": "Destino",
+    "texto": "Você se torna treinado em uma perícia a sua escolha. Você pode escolher este poder outras vezes para perícias diferentes.",
+    "ref": { "Manual": "Manual Básico", "pagina": 131 }
+  },
+  {
+    "nome": "Venefício",
+    "tipo": "Destino",
+    "requisitos": {
+      "tipo": "pericia",
+      "nome": "Ofício",
+      "treinado": true,
+      "descricao": "Alquimista"
+    },
+    "texto": "Quando usa um veneno, você não corre risco de se envenenar acidentalmente. Além disso, a CD para resistir aos seus venenos aumenta em +2.",
+    "ref": { "Manual": "Manual Básico", "pagina": 131 }
+  },
+  {
+    "nome": "Vontade de Ferro",
+    "tipo": "Destino",
+    "requisitos": { "tipo": "atributo", "nome": "Sab", "valor": 1 },
+    "texto": "Você recebe +1 PM para cada dois níveis de personagem e +2 em Vontade.",
+    "ref": { "Manual": "Manual Básico", "pagina": 131 }
+  },
+  {
     "nome": "Celebrar Ritual",
     "tipo": "Magia",
     "requisitos": [

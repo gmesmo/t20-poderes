@@ -9,6 +9,7 @@ export interface RequisitoPericia {
   tipo: 'pericia'
   nome: string // Ex: "Misticismo", "Religiao"
   treinado: boolean // true se precisa ser treinado, false se não treinado
+  descricao?: string // Descrição opcional da perícia
 }
 
 export interface RequisitoPoder {

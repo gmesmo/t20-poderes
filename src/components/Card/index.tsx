@@ -16,7 +16,7 @@ const formatarRequisitoBaseTexto = (req: RequisitoBase): string => {
   if (req.tipo === 'pericia') {
     const periciaNome = req.nome as keyof typeof Pericia
 
-    return `${Pericia[periciaNome]}`
+    return `${Pericia[periciaNome]} ${req.descricao ? req.descricao : ''}`
   }
   if (req.tipo === 'poder') {
     return `${req.nome}`
