@@ -142,6 +142,11 @@ function Card({ poder }: CardProps) {
             {gerarElementosRequisitos(requisitos)}
           </div>
         )}
+        {poder.custo && (
+          <p className={styles.custo}>
+            <strong>Custo:</strong> +{poder.custo}
+          </p>
+        )}
         {formataTexto(texto)}
         {poder.tabela && (
           <table className={styles.tabela}>

@@ -59,6 +59,7 @@ export interface Poder {
   nome: string
   subtitulo?: string
   tipo: string
+  custo?: string
   requisitos?: RequisitoExpressao
   texto: string
   tabela?: {
