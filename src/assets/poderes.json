@@ -640,6 +640,28 @@
     "ref": { "Manual": "Manual Básico", "pagina": 132 }
   },
   {
+    "nome": "Almejar o Impossível",
+    "subtitulo": "Thwor, Valkaria",
+    "tipo": "Poder Concedido",
+    "texto": "Quando faz um teste de perícia, um resultado de 19 ou mais no dado sempre é um sucesso, não importando o valor a ser alcançado",
+    "ref": { "Manual": "Manual Básico", "pagina": 132 }
+  },
+  {
+    "nome": "Anfíbio",
+    "subtitulo": "Oceano",
+    "tipo": "Poder Concedido",
+    "texto": "Você pode respirar embaixo d’água e adquire deslocamento de natação igual a seu deslocamento terrestre.",
+    "ref": { "Manual": "Manual Básico", "pagina": 132 }
+  },
+  {
+    "nome": "Apostar com o Trapaceiro",
+    "subtitulo": "Hyninn",
+    "efeitoMagico": true,
+    "tipo": "Poder Concedido",
+    "texto": "Quando faz um teste de perícia, você pode gastar 1 PM para apostar com Hyninn. Você e o mestre rolam 1d20, mas o mestre mantém o resultado dele em segredo. Você então escolhe entre usar seu próprio resultado ou o resultado oculto do mestre (neste caso, ele revela o resultado).",
+    "ref": { "Manual": "Manual Básico", "pagina": 132 }
+  },
+  {
     "nome": "Anatomia Insana",
     "tipo": "Tormenta",
     "texto": "Você tem 25% de chance (resultado '1' em 1d4) de ignorar o dano adicional de um acerto crítico ou ataque furtivo. A chance aumenta em +25% para cada dois outros poderes da Tormenta que possui.",

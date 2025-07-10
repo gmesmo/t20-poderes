@@ -1,5 +1,7 @@
 // src/components/Card.tsx
 import { JSX } from 'react'
+import * as BsIcons from 'react-icons/bs'
+
 import { Poder, RequisitoExpressao, RequisitoBase } from '../../types/poderes'
 
 import styles from './styles.module.scss'
@@ -120,6 +122,8 @@ function formataTexto(texto: string): JSX.Element[] {
 function Card({ poder }: CardProps) {
   const { nome, subtitulo, tipo, requisitos, texto, ref } = poder
 
+  const Icon = BsIcons.BsStars as React.ComponentType<{ className?: string }>
+
   return (
     <div className={styles.card}>
       <div
@@ -127,7 +131,10 @@ function Card({ poder }: CardProps) {
           styles[`tipo-${gerarNomeTipo(tipo || '')}`]
         } ${!subtitulo && styles.semSubtitulo}`}
       >
-        {nome}
+        <span className={styles.nomeWrapper}>
+          {nome}
+          {poder.efeitoMagico && <Icon className={styles.efeitoMagico} />}
+        </span>
         {subtitulo && <h4 className={styles.subtitulo}>{subtitulo}</h4>}
       </div>
       <div className={styles.content}>

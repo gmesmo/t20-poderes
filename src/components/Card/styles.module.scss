@@ -24,7 +24,7 @@
     box-shadow: 1px 0px 3px rgba(0, 0, 0, 0.5);
 
     &.semSubtitulo {
-      padding-bottom: 16px;
+      padding-bottom: 12px;
       margin-bottom: 8px;
     }
 
@@ -46,6 +46,14 @@
 
     &.tipo-PoderConcedido {
       background-color: $cor-poder-concedido;
+    }
+
+    .nomeWrapper {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      margin-bottom: 4px;
     }
   }
 

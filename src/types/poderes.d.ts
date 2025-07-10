@@ -58,6 +58,7 @@ export interface Ref {
 export interface Poder {
   nome: string
   subtitulo?: string
+  efeitoMagico?: boolean // Indica se é um poder mágico
   tipo: string
   custo?: string
   requisitos?: RequisitoExpressao
