@@ -1,0 +1,14 @@
+@use 'src/assets/cores.scss' as *;
+
+.footer {
+  color: $cor-texto-claro;
+  background-color: $cor-fundo-escuro;
+  padding: 32px;
+
+  .legalWrapper {
+    max-width: 760px;
+    margin: 0 auto;
+    line-height: 1.5rem;
+    text-align: center;
+  }
+}

@@ -7,6 +7,7 @@ import { Poder, RequisitoExpressao, RequisitoBase } from '../../types/poderes'
 import styles from './styles.module.scss'
 import { Pericia, Atributo } from '../../assets/enums'
 import { getTipoPoderPorNome } from '../../utils/getPoder'
+import { Tooltip } from '@mui/material'
 
 // Função para formatar um requisito base em uma string
 const formatarRequisitoBaseTexto = (req: RequisitoBase): string => {
@@ -133,7 +134,11 @@ function Card({ poder }: CardProps) {
       >
         <span className={styles.nomeWrapper}>
           {nome}
-          {poder.efeitoMagico && <Icon className={styles.efeitoMagico} />}
+          {poder.efeitoMagico && (
+            <Tooltip title='Efeito mágico'>
+              <Icon className={styles.efeitoMagico} />
+            </Tooltip>
+          )}
         </span>
         {subtitulo && <h4 className={styles.subtitulo}>{subtitulo}</h4>}
       </div>

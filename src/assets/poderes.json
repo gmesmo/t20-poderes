@@ -662,6 +662,233 @@
     "ref": { "Manual": "Manual Básico", "pagina": 132 }
   },
   {
+    "nome": "Armas da Ambição",
+    "subtitulo": "Valkaria",
+    "tipo": "Poder Concedido",
+    "texto": "Você recebe +1 em testes de ataque e na margem de ameaça com armas nas quais é proficiente.",
+    "ref": { "Manual": "Manual Básico", "pagina": 132 }
+  },
+  {
+    "nome": "Arsenal das Profundesas",
+    "subtitulo": "Oceano",
+    "tipo": "Poder Concedido",
+    "texto": "Você recebe +2 nas rolagens de dano com azagaias, lanças e tridentes e seu multiplicador de crítico com essas armas aumenta em +1.",
+    "ref": { "Manual": "Manual Básico", "pagina": 132 }
+  },
+  {
+    "nome": "Astúcia da Serpente",
+    "subtitulo": "Sszzaas",
+    "tipo": "Poder Concedido",
+    "texto": "Você recebe +2 em Enganação, Furtividade e Intuição.",
+    "ref": { "Manual": "Manual Básico", "pagina": 132 }
+  },
+  {
+    "nome": "Ataque Piedoso",
+    "subtitulo": "Lena, Thyatis",
+    "tipo": "Poder Concedido",
+    "texto": "Você pode usar armas corpo a corpo para causar dano não letal sem sofrer a penalidade de –5 no teste de ataque.",
+    "ref": { "Manual": "Manual Básico", "pagina": 132 }
+  },
+  {
+    "nome": "Aura de Medo",
+    "subtitulo": "Kallyadranoch",
+    "efeitoMagico": true,
+    "tipo": "Poder Concedido",
+    "texto": "Você pode gastar 2 PM para gerar uma aura de medo de 9m de raio e duração até o fim da cena. Todos os inimigos que entrem na aura devem fazer um teste de Vontade (CD Car) ou ficam abalados até o fim da cena. Uma criatura que passe no teste de Vontade fica imune a esta habilidade por um dia.",
+    "ref": { "Manual": "Manual Básico", "pagina": 132 }
+  },
+  {
+    "nome": "Aura de Paz",
+    "subtitulo": "Marah",
+    "efeitoMagico": true,
+    "tipo": "Poder Concedido",
+    "texto": "Você pode gastar 2 PM para gerar uma aura de paz com 9m de raio e duração de uma cena. Qualquer inimigo dentro da aura que tente fazer uma ação hostil contra você deve fazer um teste de Vontade (CD Car). Se falhar, perderá sua ação. Se passar, fica imune a esta habilidade por um dia.",
+    "ref": { "Manual": "Manual Básico", "pagina": 132 }
+  },
+  {
+    "nome": "Aura Restauradora",
+    "subtitulo": "Lena",
+    "tipo": "Poder Concedido",
+    "texto": "Efeitos de cura usados por você e seus aliados em um raio de 9m recuperam +1 PV por dado",
+    "ref": { "Manual": "Manual Básico", "pagina": 132 }
+  },
+  {
+    "nome": "Benção do Mana",
+    "subtitulo": "Wynna",
+    "tipo": "Poder Concedido",
+    "texto": "Você recebe +1 PM a cada nível ímpar.",
+    "ref": { "Manual": "Manual Básico", "pagina": 132 }
+  },
+  {
+    "nome": "Carícia Sombria",
+    "subtitulo": "Tenebra",
+    "efeitoMagico": true,
+    "tipo": "Poder Concedido",
+    "texto": "Você pode gastar 1 PM e uma ação padrão para cobrir sua mão com energia negativa e tocar uma criatura em alcance corpo a corpo. A criatura sofre 2d6 pontos de dano de trevas (Fortitude CD Sab reduz à metade) e você recupera PV iguais à metade do dano causado. Você pode aprender Toque Vampírico como uma magia divina. Se fizer isso, o custo dela diminui em –1 PM.",
+    "ref": { "Manual": "Manual Básico", "pagina": 132 }
+  },
+  {
+    "nome": "Centelha Mágica",
+    "subtitulo": "Wynna",
+    "tipo": "Poder Concedido",
+    "texto": "Escolha uma magia arcana ou divina de 1º círculo. Você aprende e pode lançar essa magia.",
+    "ref": { "Manual": "Manual Básico", "pagina": 132 }
+  },
+  {
+    "nome": "Compreender os Ermos",
+    "subtitulo": "Allihanna",
+    "tipo": "Poder Concedido",
+    "texto": "Você recebe +2 em Sobrevivência e pode usar Sabedoria para Adestramento (em vez de Carisma).",
+    "ref": { "Manual": "Manual Básico", "pagina": 132 }
+  },
+  {
+    "nome": "Conhecimento Enciclopédico",
+    "subtitulo": "Tanna-Toh",
+    "tipo": "Poder Concedido",
+    "texto": "Você se torna treinado em duas perícias baseadas em Inteligência a sua escolha.",
+    "ref": { "Manual": "Manual Básico", "pagina": 132 }
+  },
+  {
+    "nome": "Conjurar Arma",
+    "subtitulo": "Arsenal",
+    "efeitoMagico": true,
+    "tipo": "Poder Concedido",
+    "texto": "Você pode gastar 1 PM para invocar uma arma corpo a corpo ou de arremesso com a qual seja proficiente. A arma surge em sua mão, fornece +1 em testes de ataque e rolagens de dano, é considerada mágica e dura pela cena. Você não pode criar armas de disparo, mas pode criar 20 munições.",
+    "ref": { "Manual": "Manual Básico", "pagina": 132 }
+  },
+  {
+    "nome": "Coragem total",
+    "subtitulo": "Arsenal, Khalmyr, Lin-Wu, Valkaria",
+    "tipo": "Poder Concedido",
+    "texto": "Você é imune a efeitos de medo, mágicos ou não. Este poder não elimina fobias raciais (como o medo de altura dos minotauros).",
+    "ref": { "Manual": "Manual Básico", "pagina": 133 }
+  },
+  {
+    "nome": "Cura Gentil",
+    "subtitulo": "Lena",
+    "tipo": "Poder Concedido",
+    "texto": "Você soma seu Carisma aos PV restaurados por seus efeitos mágicos de cura.",
+    "ref": { "Manual": "Manual Básico", "pagina": 133 }
+  },
+  {
+    "nome": "Curandeira Perfeita",
+    "subtitulo": "Lena",
+    "tipo": "Poder Concedido",
+    "texto": "Você sempre pode escolher 10 em testes de Cura. Além disso, não sofre penalidade por usar essa perícia sem uma maleta de medicamentos. Se possuir o item, recebe +2 no teste de Cura (ou +5, se ele for aprimorado).",
+    "ref": { "Manual": "Manual Básico", "pagina": 133 }
+  },
+  {
+    "nome": "Dedo Verde",
+    "subtitulo": "Allihanna",
+    "efeitoMagico": true,
+    "tipo": "Poder Concedido",
+    "texto": "Você aprende e pode lançar Controlar Plantas. Caso aprenda novamente essa magia, seu custo diminui em –1 PM.",
+    "ref": { "Manual": "Manual Básico", "pagina": 133 }
+  },
+  {
+    "nome": "Descanso Natural",
+    "subtitulo": "Allihanna",
+    "tipo": "Poder Concedido",
+    "texto": "Para você, dormir ao relento conta como condição de descanso confortável.",
+    "ref": { "Manual": "Manual Básico", "pagina": 133 }
+  },
+  {
+    "nome": "Dom da Esperança",
+    "subtitulo": "Marah",
+    "tipo": "Poder Concedido",
+    "texto": "Você soma sua Sabedoria em seus PV em vez de Constituição, e se torna imune às condições alquebrado, esmorecido e frustrado.",
+    "ref": { "Manual": "Manual Básico", "pagina": 133 }
+  },
+  {
+    "nome": "Dom da Imortalidade",
+    "subtitulo": "Thyatis",
+    "efeitoMagico": true,
+    "tipo": "Poder Concedido",
+    "texto": "Você é imortal. Sempre que morre, não importando o motivo, volta à vida após 3d6 dias. Apenas paladinos podem escolher este poder. Um personagem pode ter Dom da Imortalidade ou Dom da Ressurreição, mas não ambos.",
+    "ref": { "Manual": "Manual Básico", "pagina": 133 }
+  },
+  {
+    "nome": "Dom da Profecia",
+    "subtitulo": "Thyatis",
+    "efeitoMagico": true,
+    "tipo": "Poder Concedido",
+    "texto": "Você pode lançar Augúrio. Caso aprenda novamente essa magia, seu custo diminui em –1 PM. Você também pode gastar 2 PM para receber +2 em um teste.",
+    "ref": { "Manual": "Manual Básico", "pagina": 133 }
+  },
+  {
+    "nome": "Dom da Ressureição",
+    "subtitulo": "Thyatis",
+    "efeitoMagico": true,
+    "tipo": "Poder Concedido",
+    "texto": "Você pode gastar uma ação completa e todos os PM que possui (mínimo 1 PM) para tocar o corpo de uma criatura morta há menos de um ano e ressuscitá-la. A criatura volta à vida com 1 PV e 0 PM, e perde 1 ponto de Constituição permanentemente. Este poder só pode ser usado uma vez em cada criatura. Apenas clérigos podem escolher este poder. Um personagem pode ter Dom da Imortalidade ou Dom da Ressurreição, mas não ambos.",
+    "ref": { "Manual": "Manual Básico", "pagina": 133 }
+  },
+  {
+    "nome": "Dom da Verdade",
+    "subtitulo": "Khalmyr",
+    "tipo": "Poder Concedido",
+    "texto": "Você pode pagar 2 PM para receber +5 em testes de Intuição, e em testes de Percepção contra Enganação e Furtividade, até o fim da cena.",
+    "ref": { "Manual": "Manual Básico", "pagina": 133 }
+  },
+  {
+    "nome": "Escamas Dracônicas",
+    "subtitulo": "Kallyadranoch",
+    "tipo": "Poder Concedido",
+    "texto": "Você recebe +2 na Defesa e em Fortitude.",
+    "ref": { "Manual": "Manual Básico", "pagina": 133 }
+  },
+  {
+    "nome": "Escudo Mágico",
+    "subtitulo": "Wynna",
+    "efeitoMagico": true,
+    "tipo": "Poder Concedido",
+    "texto": "Quando lança uma magia, você recebe um bônus na Defesa igual ao círculo da magia lançada até o início do seu próximo turno.",
+    "ref": { "Manual": "Manual Básico", "pagina": 133 }
+  },
+  {
+    "nome": "Espada Justiceira",
+    "subtitulo": "Khalmyr",
+    "tipo": "Poder Concedido",
+    "texto": "Você pode gastar 1 PM para encantar sua espada (ou outra arma corpo a corpo de corte que esteja empunhando). Ela tem seu dano aumentado em um passo até o fim da cena.",
+    "ref": { "Manual": "Manual Básico", "pagina": 133 }
+  },
+  {
+    "nome": "Espada Solar",
+    "subtitulo": "Azgher",
+    "efeitoMagico": true,
+    "tipo": "Poder Concedido",
+    "texto": "Você pode gastar 1 PM para fazer uma arma corpo a corpo de corte que esteja empunhando causar +1d6 de dano por fogo até o fim da cena.",
+    "ref": { "Manual": "Manual Básico", "pagina": 133 }
+  },
+  {
+    "nome": "Êxtase da Loucura",
+    "subtitulo": "Aharadak, Nimb",
+    "tipo": "Poder Concedido",
+    "texto": "Toda vez que uma ou mais criaturas falham em um teste de Vontade contra uma de suas habilidades mágicas, você recebe 1 PM temporário cumulativo. Você pode ganhar um máximo de PM temporários por cena desta forma igual a sua Sabedoria.",
+    "ref": { "Manual": "Manual Básico", "pagina": 133 }
+  },
+  {
+    "nome": "Familiar Ofídico",
+    "subtitulo": "Sszzaas",
+    "tipo": "Poder Concedido",
+    "texto": "Você recebe um familiar cobra (veja a página 38) que não conta em seu limite de parceiros.",
+    "ref": { "Manual": "Manual Básico", "pagina": 133 }
+  },
+  {
+    "nome": "Farsa do Fingidor",
+    "subtitulo": "Hyninn",
+    "tipo": "Poder Concedido",
+    "texto": "Você aprende e pode lançar Criar Ilusão. Caso aprenda novamente essa magia, seu custo diminui em –1 PM.",
+    "ref": { "Manual": "Manual Básico", "pagina": 133 }
+  },
+  {
+    "nome": "Fé Guerreira",
+    "subtitulo": "Arsenal",
+    "tipo": "Poder Concedido",
+    "texto": "Você pode usar Sabedoria para Guerra (em vez de Inteligência). Além disso, em combate, quando vai fazer um teste de perícia, você pode gastar 2 PM para substituí-lo por um teste de Guerra (exceto para testes de ataque).",
+    "ref": { "Manual": "Manual Básico", "pagina": 133 }
+  },
+  {
     "nome": "Anatomia Insana",
     "tipo": "Tormenta",
     "texto": "Você tem 25% de chance (resultado '1' em 1d4) de ignorar o dano adicional de um acerto crítico ou ataque furtivo. A chance aumenta em +25% para cada dois outros poderes da Tormenta que possui.",
