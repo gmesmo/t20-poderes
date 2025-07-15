@@ -15,7 +15,8 @@ export interface RequisitoPericia {
 export interface RequisitoPoder {
   tipo: 'poder'
   nome: string // Nome do poder requerido
-  treinado: boolean // true se precisa ser treinado, false se não treinado
+  treinado?: boolean // true se precisa ser treinado, false se não treinado
+  especial?: string // Descrição opcional do poder
 }
 
 export interface RequisitoProficiencia {

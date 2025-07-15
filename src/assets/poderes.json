@@ -889,9 +889,306 @@
     "ref": { "Manual": "Manual Básico", "pagina": 133 }
   },
   {
+    "nome": "Forma de Macaco",
+    "subtitulo": "Hyninn",
+    "efeitoMagico": true,
+    "tipo": "Poder Concedido",
+    "texto": "Você pode gastar uma ação completa e 2 PM para se transformar em um macaco. Você adquire tamanho Minúsculo (o que fornece +5 em Furtividade e –5 em testes de manobra) e recebe deslocamento de escalar 9m. Seu equipamento desaparece (e você perde seus benefícios) até você voltar ao normal, mas suas outras estatísticas não são alteradas. A transformação dura indefinidamente, mas termina caso você faça um ataque, lance uma magia ou sofra dano.",
+    "ref": { "Manual": "Manual Básico", "pagina": 134 }
+  },
+  {
+    "nome": "Fulgor Solar",
+    "subtitulo": "Azgher",
+    "tipo": "Poder Concedido",
+    "texto": "Você recebe redução de frio e trevas 5. Além disso, quando é alvo de um ataque você pode gastar 1 PM para emitir um clarão solar que deixa o atacante ofuscado por uma rodada.",
+    "ref": { "Manual": "Manual Básico", "pagina": 134 }
+  },
+  {
+    "nome": "Fúria Divina",
+    "subtitulo": "Thwor",
+    "efeitoMagico": true,
+    "tipo": "Poder Concedido",
+    "texto": "Você pode gastar 2 PM para invocar uma fúria selvagem, tornando-se temível em combate. Até o fim da cena, você recebe +2 em testes de ataque e rolagens de dano corpo a corpo, mas não pode executar nenhuma ação que exija paciência ou concentração (como usar a perícia Furtividade ou lançar magias). Se usar este poder em conjunto com a habilidade Fúria, ela também dura uma cena (e não termina se você não atacar ou for alvo de uma ação hostil).",
+    "ref": { "Manual": "Manual Básico", "pagina": 134 }
+  },
+  {
+    "nome": "Golpita Divino",
+    "subtitulo": "Hyninn",
+    "tipo": "Poder Concedido",
+    "texto": "Você recebe +2 em Enganação, Jogatina e Ladinagem.",
+    "ref": { "Manual": "Manual Básico", "pagina": 134 }
+  },
+  {
+    "nome": "Habitante do Deserto",
+    "subtitulo": "Azgher",
+    "efeitoMagico": true,
+    "tipo": "Poder Concedido",
+    "texto": "Você recebe redução de fogo 10 e pode pagar 1 PM para criar água pura e potável suficiente para um odre (ou outro recipiente pequeno).",
+    "ref": { "Manual": "Manual Básico", "pagina": 134 }
+  },
+  {
+    "nome": "Inimigo de Tenebra",
+    "subtitulo": "Azgher",
+    "tipo": "Poder Concedido",
+    "texto": "Seus ataques e habilidades causam +1d6 pontos de dano contra mortos-vivos. Quando você usa um efeito que gera luz, o alcance da iluminação dobra",
+    "ref": { "Manual": "Manual Básico", "pagina": 134 }
+  },
+  {
+    "nome": "Kiai Divino",
+    "subtitulo": "Lin-Wu",
+    "tipo": "Poder Concedido",
+    "texto": "Uma vez por rodada, quando faz um ataque corpo a corpo, você pode pagar 3 PM. Se acertar o ataque, causa dano máximo, sem necessidade de rolar dados.",
+    "ref": { "Manual": "Manual Básico", "pagina": 134 }
+  },
+  {
+    "nome": "Liberdade Divina",
+    "subtitulo": "Valkaria",
+    "efeitoMagico": true,
+    "tipo": "Poder Concedido",
+    "texto": "Você pode gastar 2 PM para receber imunidade a efeitos de movimento por uma rodada.",
+    "ref": { "Manual": "Manual Básico", "pagina": 134 }
+  },
+  {
+    "nome": "Manto da Penumbra",
+    "subtitulo": "Tenebra",
+    "efeitoMagico": true,
+    "tipo": "Poder Concedido",
+    "texto": "Você aprende e pode lançar Escuridão. Caso aprenda novamente essa magia, seu custo diminui em –1 PM.",
+    "ref": { "Manual": "Manual Básico", "pagina": 134 }
+  },
+  {
+    "nome": "Mente Analítica",
+    "subtitulo": "Hyninn",
+    "tipo": "Poder Concedido",
+    "texto": "Você recebe +2 em Intuição, Investigação e Vontade.",
+    "ref": { "Manual": "Manual Básico", "pagina": 134 }
+  },
+  {
+    "nome": "Mente Vazia",
+    "subtitulo": "Lin-Wu",
+    "tipo": "Poder Concedido",
+    "texto": "Você recebe +2 em Iniciativa, Percepção e Vontade",
+    "ref": { "Manual": "Manual Básico", "pagina": 134 }
+  },
+  {
+    "nome": "Mestre dos Mares",
+    "subtitulo": "Oceano",
+    "efeitoMagico": true,
+    "tipo": "Poder Concedido",
+    "texto": "Você pode falar com animais aquáticos (como o efeito da magia Voz Divina) e aprende e pode lançar Acalmar Animal, mas só contra criaturas aquáticas. Caso aprenda novamente essa magia, seu custodiminui em –1 PM.",
+    "ref": { "Manual": "Manual Básico", "pagina": 134 }
+  },
+  {
+    "nome": "Olhar Amedrontador",
+    "subtitulo": "Megalokk, Thwor",
+    "efeitoMagico": true,
+    "tipo": "Poder Concedido",
+    "texto": "Você aprende e pode lançar Amedrontar. Caso aprenda novamente essa magia, seu custo diminui em –1 PM. ",
+    "ref": { "Manual": "Manual Básico", "pagina": 134 }
+  },
+  {
+    "nome": "Palavras de Bondade",
+    "subtitulo": "Marah",
+    "efeitoMagico": true,
+    "tipo": "Poder Concedido",
+    "texto": "Você aprende e pode lançar Enfeitiçar. Caso aprenda novamente essa magia, seu custo diminui em –1 PM.",
+    "ref": { "Manual": "Manual Básico", "pagina": 134 }
+  },
+  {
+    "nome": "Percepção Temporal",
+    "subtitulo": "Aharadak",
+    "tipo": "Poder Concedido",
+    "texto": "Você pode gastar 3 PM para somar sua Sabedoria (limitado por seu nível e não cumulativo com efeitos que somam este atributo) a seus ataques, Defesa e testes de Reflexos até o fim da cena",
+    "ref": { "Manual": "Manual Básico", "pagina": 134 }
+  },
+  {
+    "nome": "Pesquisa Abençoada",
+    "subtitulo": "Tanna-Toh",
+    "tipo": "Poder Concedido",
+    "texto": "Se passar uma hora pesquisando seus livros e anotações, você pode rolar novamente um teste de perícia baseada em Inteligência ou Sabedoria que tenha feito desde a última cena. Se tiver acesso a mais livros, você recebe um bônus no teste: +2 para uma coleção particular ou biblioteca pequena e +5 para a biblioteca de um templo ou universidade.",
+    "ref": { "Manual": "Manual Básico", "pagina": 134 }
+  },
+  {
+    "nome": "Poder Oculto",
+    "subtitulo": "Nimb",
+    "efeitoMagico": true,
+    "tipo": "Poder Concedido",
+    "texto": "Você pode gastar uma ação de movimento e 2 PM para invocar a força, a rapidez ou o vigor dos loucos. Role 1d6 para receber +2 em Força (1 ou 2), Destreza (3 ou 4) ou Constituição (5 ou 6) até o fim da cena. Você pode usar este poder várias vezes, mas bônus no mesmo atributo não são cumulativos.",
+    "ref": { "Manual": "Manual Básico", "pagina": 134 }
+  },
+  {
+    "nome": "Presas Primordiais",
+    "subtitulo": "Kallyadranoch, Megalokk",
+    "efeitoMagico": true,
+    "tipo": "Poder Concedido",
+    "texto": "Você pode gastar 1 PM para transformar seus dentes em presas afiadas até o fim da cena. Você recebe uma arma natural de mordida (dano 1d6, crítico x2, perfuração). Uma vez por rodada, quando usa a ação agredir com outra arma, você pode gastar 1 PM para fazer um ataque corpo a corpo extra com a mordida. Se já possuir outro ataque natural de mordida, em vez disso, o dano desse ataque aumenta em dois passos.",
+    "ref": { "Manual": "Manual Básico", "pagina": 135 }
+  },
+  {
+    "nome": "Presas Venenosas",
+    "subtitulo": "Sszzaas",
+    "tipo": "Poder Concedido",
+    "texto": "Você pode gastar uma ação de movimento e 1 PM para envenenar uma arma corpo a corpo que esteja empunhando. Em caso de acerto, a arma causa perda de 1d12 pontos de vida. A arma permanece envenenada até atingir uma criatura ou até o fim da cena, o que acontecer primeiro.",
+    "ref": { "Manual": "Manual Básico", "pagina": 135 }
+  },
+  {
+    "nome": "Rejeição Divina",
+    "subtitulo": "Aharadak",
+    "tipo": "Poder Concedido",
+    "texto": "Você recebe resistência a magia divina +5.",
+    "ref": { "Manual": "Manual Básico", "pagina": 135 }
+  },
+  {
+    "nome": "Reparar Injustiça",
+    "subtitulo": "Khalmyr",
+    "tipo": "Poder Concedido",
+    "texto": "Uma vez por rodada, quando um oponente em alcance curto acerta um ataque em você ou em um de seus aliados, você pode gastar 2 PM para fazer este oponente repetir o ataque, escolhendo o pior entre os dois resultados.",
+    "ref": { "Manual": "Manual Básico", "pagina": 135 }
+  },
+  {
+    "nome": "Sangue de Ferro",
+    "subtitulo": "Arsenal",
+    "efeitoMagico": true,
+    "tipo": "Poder Concedido",
+    "texto": "Você pode pagar 3 PM para receber +2 em rolagens de dano e redução de dano 5 até o fim da cena.",
+    "ref": { "Manual": "Manual Básico", "pagina": 135 }
+  },
+  {
+    "nome": "Sangue Ofídico",
+    "subtitulo": "Sszzaas",
+    "tipo": "Poder Concedido",
+    "texto": "Você recebe resistência a veneno +5 e a CD para resistir aos seus venenos aumenta em +2.",
+    "ref": { "Manual": "Manual Básico", "pagina": 135 }
+  },
+  {
+    "nome": "Servos do Dragão",
+    "subtitulo": "Kallyadranoch",
+    "efeitoMagico": true,
+    "tipo": "Poder Concedido",
+    "texto": "Você pode gastar uma ação completa e 2 PM para invocar 2d4+1 kobolds capangas em espaços desocupados em alcance curto. Você pode gastar uma ação de movimento para fazer os kobolds andarem (eles têm deslocamento 9m) ou uma ação padrão para fazê-los causar dano a criaturas adjacentes (1d6–1 pontos de dano de perfuração cada). Os kobolds têm For –1, Des 1, Defesa 12, 1 PV e falham automaticamente em qualquer teste de resistência ou oposto. Eles desaparecem quando morrem ou no fim da cena. Os kobolds não agem sem receber uma ordem. Usos criativos para capangas fora de combate ficam a critério do mestre.",
+    "ref": { "Manual": "Manual Básico", "pagina": 135 }
+  },
+  {
+    "nome": "Sopro do Mar",
+    "subtitulo": "Oceano",
+    "efeitoMagico": true,
+    "tipo": "Poder Concedido",
+    "texto": "Você pode gastar uma ação padrão e 1 PM para soprar vento marinho em um cone de 6m. Criaturas na área sofrem 2d6 pontos de dano de frio (Reflexos CD Sab reduz à metade). Você pode aprender Sopro das Uivantes como uma magia divina. Se fizer isso, o custo dela diminui em –1 PM.",
+    "ref": { "Manual": "Manual Básico", "pagina": 135 }
+  },
+  {
+    "nome": "Sorte dos Loucos",
+    "subtitulo": "Nimb",
+    "tipo": "Poder Concedido",
+    "texto": "Quando faz um teste, você pode pagar 1 PM para rolá-lo novamente (você pode fazer isso mais de uma vez por teste). Se ainda assim falhar, perde 1d6 PM para cada vez que utilizou este poder neste teste.",
+    "ref": { "Manual": "Manual Básico", "pagina": 135 }
+  },
+  {
+    "nome": "Talento Artístico",
+    "subtitulo": "Marah",
+    "tipo": "Poder Concedido",
+    "texto": "Você recebe +2 em Acrobacia, Atuação e Diplomacia",
+    "ref": { "Manual": "Manual Básico", "pagina": 135 }
+  },
+  {
+    "nome": "Teurgista Místico",
+    "subtitulo": "Wynna",
+    "tipo": "Poder Concedido",
+    "requisitos": { "tipo": "proficiencia", "nome": "Magia" },
+    "texto": "Até uma magia de cada círculo que você aprender poderá ser escolhida entre magias divinas (se você for um conjurador arcano) ou entre magias arcanas (se for um conjurador divino).",
+    "ref": { "Manual": "Manual Básico", "pagina": 135 }
+  },
+  {
+    "nome": "Tradição de Lin-wu",
+    "subtitulo": "Lin-Wu",
+    "tipo": "Poder Concedido",
+    "texto": "Você considera a katana uma arma simples e, se for proficiente em armas marciais, recebe +1 na margem de ameaça com ela",
+    "ref": { "Manual": "Manual Básico", "pagina": 135 }
+  },
+  {
+    "nome": "Transmissão da Loucura",
+    "subtitulo": "Nimb",
+    "efeitoMagico": true,
+    "tipo": "Poder Concedido",
+    "texto": "Você pode lançar Sussurros Insanos (CD Car). Caso aprenda novamente essa magia, seu custo diminui em –1 PM.",
+    "ref": { "Manual": "Manual Básico", "pagina": 135 }
+  },
+  {
+    "nome": "Tropas Duyshidakk",
+    "subtitulo": "Thwor",
+    "efeitoMagico": true,
+    "tipo": "Poder Concedido",
+    "texto": "Você pode gastar uma ação completa e 2 PM para invocar 1d4+1 goblinoides capangas em espaços desocupados em alcance curto. Você pode gastar uma ação de movimento para fazer os goblinoides andarem (eles têm deslocamento 9m) ou uma ação padrão para fazê-los causar dano a criaturas adjacentes (1d6+1 pontos de dano de corte cada). Os goblinoides têm For 1, Des 1, Defesa 15, 1 PV e falham automaticamente em qualquer teste de resistência ou oposto. Eles desaparecem quando morrem ou no fim da cena. Os goblinoides não agem sem receber uma ordem. Usos criativos para capangas fora de combate ficam a critério do mestre.",
+    "ref": { "Manual": "Manual Básico", "pagina": 135 }
+  },
+  {
+    "nome": "Urro Divino",
+    "subtitulo": "Megalokk",
+    "tipo": "Poder Concedido",
+    "texto": "Quando faz um ataque ou lança uma magia, você pode pagar 1 PM para somar sua Constituição (mínimo +1) à rolagem de dano desse ataque ou magia.",
+    "ref": { "Manual": "Manual Básico", "pagina": 136 }
+  },
+  {
+    "nome": "Visão nas Trevas",
+    "subtitulo": "Tenebra",
+    "tipo": "Poder Concedido",
+    "texto": "Você enxerga perfeitamente no escuro, incluindo em magias de escuridão.",
+    "ref": { "Manual": "Manual Básico", "pagina": 136 }
+  },
+  {
+    "nome": "Voz da Civilização",
+    "subtitulo": "Tanna-Toh",
+    "efeitoMagico": true,
+    "tipo": "Poder Concedido",
+    "texto": "Você está sempre sob efeito de Compreensão.",
+    "ref": { "Manual": "Manual Básico", "pagina": 136 }
+  },
+  {
+    "nome": "Voz da Natureza",
+    "subtitulo": "Allihanna",
+    "efeitoMagico": true,
+    "tipo": "Poder Concedido",
+    "texto": "Você pode falar com animais (como o efeito da magia Voz Divina) e aprende e pode lançar Acalmar Animal, mas só contra animais. Caso aprenda novamente essa magia, seu custo diminui em –1 PM.",
+    "ref": { "Manual": "Manual Básico", "pagina": 136 }
+  },
+  {
+    "nome": "Voz dos Monstros",
+    "subtitulo": "Megalokk",
+    "efeitoMagico": true,
+    "tipo": "Poder Concedido",
+    "texto": "Você conhece os idiomas de todos os monstros inteligentes e pode se comunicar livremente com monstros não inteligentes (Int –4 ou menor), como se estivesse sob efeito da magia Voz Divina.",
+    "ref": { "Manual": "Manual Básico", "pagina": 136 }
+  },
+  {
+    "nome": "Zumbificar",
+    "subtitulo": "Tenebra",
+    "efeitoMagico": true,
+    "tipo": "Poder Concedido",
+    "texto": "Você pode gastar uma ação completa e 3 PM para reanimar o cadáver de uma criatura Pequena ou Média adjacente por um dia. O cadáver funciona como um parceiro iniciante de um tipo a sua escolha entre combatente, fortão ou guardião. Além disso, quando sofre dano, você pode sacrificar esse parceiro; se fizer isso, você sofre apenas metade do dano, mas o cadáver é destruído.",
+    "ref": { "Manual": "Manual Básico", "pagina": 136 }
+  },
+  {
     "nome": "Anatomia Insana",
     "tipo": "Tormenta",
     "texto": "Você tem 25% de chance (resultado '1' em 1d4) de ignorar o dano adicional de um acerto crítico ou ataque furtivo. A chance aumenta em +25% para cada dois outros poderes da Tormenta que possui.",
+    "ref": { "Manual": "Manual Básico", "pagina": 136 }
+  },
+  {
+    "nome": "Antenas",
+    "tipo": "Tormenta",
+    "texto": "Você recebe +1 em Iniciativa, Percepção e Vontade. Este bônus aumenta em +1 para cada dois outros poderes da Tormenta que você possui.",
+    "ref": { "Manual": "Manual Básico", "pagina": 136 }
+  },
+  {
+    "nome": "Armamento Aberrante",
+    "tipo": "Tormenta",
+    "requisitos": {
+      "tipo": "poder",
+      "nome": "Outro Poder de Tormenta",
+      "treinado": true,
+      "especial": "Tormenta"
+    },
+    "texto": "Você pode gastar uma ação de movimento e 1 PM para produzir uma versão orgânica de qualquer arma corpo a corpo ou de arremesso com a qual seja proficiente — ela brota do seu braço, ombro ou costas como uma planta grotesca e então se desprende. O dano da arma aumenta em um passo para cada dois outros poderes da Tormenta que você possui. A arma dura pela cena, então se desfaz numa poça de gosma.",
     "ref": { "Manual": "Manual Básico", "pagina": 136 }
   }
 ]

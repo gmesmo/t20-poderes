@@ -1,5 +1,5 @@
 // src/components/Card.tsx
-import { JSX } from 'react'
+import { JSX, useState } from 'react'
 import * as BsIcons from 'react-icons/bs'
 
 import { Poder, RequisitoExpressao, RequisitoBase } from '../../types/poderes'
@@ -63,7 +63,9 @@ const gerarElementosRequisitos = (
             estilo && styles[`tipo-${estilo}`]
           }`}
         >
-          {formatarRequisitoBaseTexto(item)}
+          <a href={`#${nomeParaID(formatarRequisitoBaseTexto(item))}`}>
+            {formatarRequisitoBaseTexto(item)}
+          </a>
         </div>
       )
     })
@@ -76,21 +78,29 @@ const gerarElementosRequisitos = (
   } else {
     const tipoClass = `req-${expressao.tipo}`
     let estilo: string | undefined
+    let especial: string | undefined
 
     if (expressao.tipo === 'poder') {
       const poderNome = expressao.nome
+      especial = expressao.especial
+
       estilo = getTipoPoderPorNome(poderNome)
-      console.log(`Estilo do poder "${poderNome}": ${estilo}`)
     }
 
     elementos.push(
       <div key={JSON.stringify(expressao)} className={styles.requisito}>
         <div
           className={`${styles[tipoClass]} ${
-            estilo && styles[`tipo-${estilo}`]
+            especial ? styles[`tipo-${especial}`] : styles[`tipo-${estilo}`]
           }`}
         >
-          {formatarRequisitoBaseTexto(expressao)}
+          {estilo && !especial ? (
+            <a href={`#${nomeParaID(formatarRequisitoBaseTexto(expressao))}`}>
+              {formatarRequisitoBaseTexto(expressao)}
+            </a>
+          ) : (
+            formatarRequisitoBaseTexto(expressao)
+          )}
         </div>
       </div>
     )
@@ -120,13 +130,37 @@ function formataTexto(texto: string): JSX.Element[] {
   ))
 }
 
+const nomeParaID = (nome: string) => {
+  return nome
+    .normalize('NFD') // separa acentos de letras
+    .replace(/[\u0300-\u036f]/g, '') // remove os acentos
+    .replace(/[^a-zA-Z0-9 ]/g, '') // remove caracteres especiais, mas mantém espaços
+    .trim()
+    .split(' ') // separa palavras
+    .map((palavra, index) => {
+      if (index === 0) {
+        return palavra.toLowerCase()
+      }
+      return palavra.charAt(0).toUpperCase() + palavra.slice(1).toLowerCase()
+    })
+    .join('')
+}
+
 function Card({ poder }: CardProps) {
   const { nome, subtitulo, tipo, requisitos, texto, ref } = poder
 
   const Icon = BsIcons.BsStars as React.ComponentType<{ className?: string }>
 
+  const [open, setOpen] = useState(false)
+
+  function copiaConteudo(ref: string) {
+    navigator.clipboard.writeText(ref)
+    setOpen(true)
+    setTimeout(() => setOpen(false), 2000)
+  }
+
   return (
-    <div className={styles.card}>
+    <div id={nomeParaID(nome)} className={styles.card}>
       <div
         className={`${styles.titulo} ${
           styles[`tipo-${gerarNomeTipo(tipo || '')}`]
@@ -135,7 +169,7 @@ function Card({ poder }: CardProps) {
         <span className={styles.nomeWrapper}>
           {nome}
           {poder.efeitoMagico && (
-            <Tooltip title='Efeito mágico'>
+            <Tooltip title='Efeito mágico' placement='top' arrow>
               <Icon className={styles.efeitoMagico} />
             </Tooltip>
           )}
@@ -159,7 +193,14 @@ function Card({ poder }: CardProps) {
             <strong>Custo:</strong> +{poder.custo}
           </p>
         )}
-        {formataTexto(texto)}
+        <Tooltip title='Texto copiado!' placement='top-end' open={open} arrow>
+          <div
+            className={styles.textoWrapper}
+            onClick={() => copiaConteudo(texto)}
+          >
+            {formataTexto(texto)}
+          </div>
+        </Tooltip>
         {poder.tabela && (
           <table className={styles.tabela}>
             <thead>
