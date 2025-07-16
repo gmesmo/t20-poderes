@@ -1,5 +1,5 @@
 // src/components/Card.tsx
-import { JSX, useState } from 'react'
+import { JSX, useEffect, useState } from 'react'
 import * as BsIcons from 'react-icons/bs'
 
 import { Poder, RequisitoExpressao, RequisitoBase } from '../../types/poderes'
@@ -153,11 +153,13 @@ function Card({ poder }: CardProps) {
 
   const [open, setOpen] = useState(false)
 
-  function copiaConteudo(ref: string) {
-    navigator.clipboard.writeText(ref)
-    setOpen(true)
-    setTimeout(() => setOpen(false), 2000)
-  }
+  useEffect(() => {
+    let timeoutId: NodeJS.Timeout
+    if (open) {
+      timeoutId = setTimeout(() => setOpen(false), 2000)
+    }
+    return () => clearTimeout(timeoutId)
+  }, [open])
 
   return (
     <div id={nomeParaID(nome)} className={styles.card}>
@@ -194,10 +196,7 @@ function Card({ poder }: CardProps) {
           </p>
         )}
         <Tooltip title='Texto copiado!' placement='top-end' open={open} arrow>
-          <div
-            className={styles.textoWrapper}
-            onClick={() => copiaConteudo(texto)}
-          >
+          <div className={styles.textoWrapper} onClick={() => setOpen(true)}>
             {formataTexto(texto)}
           </div>
         </Tooltip>
