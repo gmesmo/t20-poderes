@@ -1094,7 +1094,7 @@
     "nome": "Teurgista Místico",
     "subtitulo": "Wynna",
     "tipo": "Poder Concedido",
-    "requisitos": { "tipo": "proficiencia", "nome": "Magia" },
+    "requisitos": { "tipo": "proficiencia", "nome": "Magias" },
     "texto": "Até uma magia de cada círculo que você aprender poderá ser escolhida entre magias divinas (se você for um conjurador arcano) ou entre magias arcanas (se for um conjurador divino).",
     "ref": { "Manual": "Manual Básico", "pagina": 135 }
   },
@@ -1220,7 +1220,7 @@
     "tipo": "Tormenta",
     "requisitos": {
       "tipo": "poder",
-      "nome": "Outros Poder da Tormenta",
+      "nome": "Outro Poder da Tormenta",
       "treinado": true,
       "especial": "Tormenta"
     },

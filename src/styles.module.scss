@@ -1,0 +1,6 @@
+@use 'src/assets/cores.scss' as *; // Importa as cores definidas
+
+.container {
+  background-color: $cor-geral;
+  padding: 20px 5dvw;
+}

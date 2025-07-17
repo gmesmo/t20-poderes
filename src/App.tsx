@@ -1,8 +1,10 @@
-// src/App.tsx
 import CardsRender from './components/CardsRender'
 import poderesData from './assets/poderes.json' // Importa o JSON diretamente
 import { Poder } from './types/poderes' // Importa o tipo Poder
 import Footer from './components/Footer'
+import Filter from './components/Filter'
+
+import styles from './styles.module.scss'
 
 function App() {
   // O TypeScript deve inferir poderesData como Poder[] se o JSON estiver bem tipado
@@ -11,7 +13,10 @@ function App() {
 
   return (
     <div className='App'>
-      <CardsRender cards={poderes} />
+      <div className={styles.container}>
+        <Filter poderes={poderes} />
+        <CardsRender poderes={poderes} />
+      </div>
       <Footer />
     </div>
   )

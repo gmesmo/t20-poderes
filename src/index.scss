@@ -1,0 +1,50 @@
+@use 'src/assets/cores.scss' as *;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: 'Roboto', sans-serif;
+  color: var(--cor-texto);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.req-atributo {
+  background-color: $cor-atributo;
+}
+
+.req-pericia {
+  background-color: $cor-pericia;
+}
+
+.req-proficiencia {
+  background-color: $cor-proficiencia;
+}
+
+.req-nivel {
+  background-color: $cor-nivel;
+}
+
+.tipo-Combate {
+  background-color: $cor-combate;
+}
+
+.tipo-Destino {
+  background-color: $cor-destino;
+}
+
+.tipo-Magia {
+  background-color: $cor-magia;
+}
+
+.tipo-Tormenta {
+  background-color: $cor-tormenta;
+}
+
+.tipo-PoderConcedido {
+  background-color: $cor-poder-concedido;
+}

@@ -22,7 +22,8 @@ const MAX_RECURSION_DEPTH = 50
 const criarElementoRequisito = (
   item: RequisitoBase,
   index: number,
-  styles: Record<string, string>
+  styles: Record<string, string>,
+  noLinks?: boolean
 ): JSX.Element => {
   const tipoClass = `req-${item.tipo}`
   let estilo: string | undefined
@@ -34,7 +35,7 @@ const criarElementoRequisito = (
   }
 
   const texto = formatarRequisitoBaseTexto(item)
-  const shouldUseLink = estilo && !especial
+  const shouldUseLink = estilo && !especial && !noLinks
 
   return (
     <div
@@ -60,7 +61,8 @@ const criarElementoRequisito = (
 const processarRequisitosOR = (
   expressao: { OR: RequisitoExpressao[] },
   styles: Record<string, string>,
-  depth: number
+  depth: number,
+  noLinks?: boolean
 ): JSX.Element => {
   const filhos = expressao.OR.map((item, index) => {
     if (Array.isArray(item) || isRequisitoOR(item) || isRequisitoAND(item)) {
@@ -82,7 +84,8 @@ const processarRequisitosOR = (
 const processarRequisitosAND = (
   expressao: { AND: RequisitoExpressao[] },
   styles: Record<string, string>,
-  depth: number
+  depth: number,
+  noLinks?: boolean
 ): JSX.Element => {
   const filhos = expressao.AND.map((item, index) => {
     if (Array.isArray(item) || isRequisitoOR(item) || isRequisitoAND(item)) {
@@ -105,7 +108,8 @@ const processarRequisitosAND = (
 export const gerarElementosRequisitos = (
   expressao: RequisitoExpressao,
   styles: Record<string, string>,
-  depth: number = 0
+  depth: number = 0,
+  noLinks: boolean = false
 ): JSX.Element[] => {
   // Proteção contra recursão infinita
   if (depth > MAX_RECURSION_DEPTH) {
@@ -122,19 +126,24 @@ export const gerarElementosRequisitos = (
   if (Array.isArray(expressao)) {
     // Array = AND implícito
     expressao.forEach((item, index) => {
-      elementos.push(...gerarElementosRequisitos(item, styles, depth + 1))
+      elementos.push(
+        ...gerarElementosRequisitos(item, styles, depth + 1, noLinks)
+      )
     })
   } else if (isRequisitoOR(expressao)) {
     // OR explícito
-    elementos.push(processarRequisitosOR(expressao, styles, depth))
+    elementos.push(processarRequisitosOR(expressao, styles, depth, noLinks))
   } else if (isRequisitoAND(expressao)) {
     // AND explícito
-    elementos.push(processarRequisitosAND(expressao, styles, depth))
+    elementos.push(processarRequisitosAND(expressao, styles, depth, noLinks))
   } else {
     // Requisito único
     elementos.push(
-      <div key={`single-req-${depth}`} className={styles.requisito}>
-        {criarElementoRequisito(expressao, depth, styles)}
+      <div
+        key={gerarIdRequisito(expressao, depth)}
+        className={styles.requisito}
+      >
+        {criarElementoRequisito(expressao, depth, styles, noLinks)}
       </div>
     )
   }

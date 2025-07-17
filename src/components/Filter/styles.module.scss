@@ -1,0 +1,130 @@
+@use 'src/assets/cores.scss' as *;
+
+#filter {
+  display: flex;
+  width: 70dvw;
+  height: 75px;
+
+  margin: 0 auto;
+  margin-top: 32px;
+  margin-bottom: 32px;
+
+  background-color: $cor-fundo-escuro;
+  border-radius: 8px;
+  padding: 8px 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  justify-content: space-between;
+}
+
+form {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  width: 100%;
+
+  .textFilter {
+    width: 80%;
+  }
+}
+
+.requisitosFilter {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+  transition: all 0.3s ease-in-out;
+  width: auto;
+  height: auto;
+  z-index: 5;
+
+  &:has(.open) {
+    height: 550px;
+  }
+
+  h4 {
+    font-size: 0.9rem;
+    color: #333;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  .requisitosWrapper {
+    overflow: hidden;
+    height: 0;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+    &.open {
+      overflow-y: scroll;
+      height: 500px;
+    }
+  }
+}
+
+.checkboxLabel {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+  padding: 0.25rem;
+  border-radius: 4px;
+  transition: filter 0.2s;
+  filter: grayscale(1);
+
+  &:hover,
+  &:has(input[type='checkbox']:checked) {
+    filter: grayscale(0);
+  }
+
+  input[type='checkbox'] {
+    margin-right: 0.5rem;
+    margin-top: 0.2rem;
+    flex-shrink: 0;
+  }
+}
+
+.requisitoText {
+  flex: 1;
+
+  // Estilos para os elementos de requisito renderizados
+  .requisito {
+    margin: 0;
+    padding: 0;
+
+    div {
+      display: inline-block;
+      margin: 0 0.25rem;
+      padding: 0.1rem 0.3rem;
+      border-radius: 2px;
+      font-size: 0.8rem;
+
+      a {
+        color: inherit;
+        text-decoration: none;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+
+  .grupoOR {
+    .requisito {
+      &::before {
+        content: 'OU ';
+        font-weight: bold;
+        color: #666;
+      }
+    }
+  }
+
+  .grupoAND {
+    .requisito {
+      &::before {
+        content: 'E ';
+        font-weight: bold;
+        color: #666;
+      }
+    }
+  }
+}
