@@ -5,3 +5,21 @@
   flex-wrap: wrap;
   gap: 32px;
 }
+
+.noResults {
+  text-align: center;
+  padding: 3rem 2rem;
+  color: var(--text-secondary, #6c757d);
+  grid-column: 1 / -1; // Ocupa toda a largura do grid
+  
+  p {
+    margin: 0.5rem 0;
+    font-size: 1.1rem;
+    
+    &:first-child {
+      font-weight: 600;
+      color: var(--text-primary, #212529);
+    }
+  }
+}
+

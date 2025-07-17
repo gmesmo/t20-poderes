@@ -1,0 +1,82 @@
+.themeToggle {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+  
+  background: var(--background-secondary, #ffffff);
+  border: 2px solid var(--border-color, #e1e5e9);
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  cursor: pointer;
+  transition: all 0.3s ease;
+  
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+
+  &:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    border-color: var(--accent-color, #007bff);
+  }
+
+  &:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px var(--focus-ring, rgba(0, 123, 255, 0.25));
+  }
+
+  &:active {
+    transform: scale(0.95);
+  }
+}
+
+.iconContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  color: var(--text-primary, #333333);
+  transition: color 0.3s ease;
+}
+
+// Animação de rotação para o ícone do sol
+[data-theme="light"] .themeToggle .icon {
+  animation: rotate 0.5s ease-in-out;
+}
+
+// Animação de fade para o ícone da lua
+[data-theme="dark"] .themeToggle .icon {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(180deg);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+

@@ -1,4 +1,4 @@
-import { useContext } from 'react'
+import { useContext, useMemo } from 'react'
 import { FilterContext, FilterType } from '../../context/Filter'
 import { Poder, RequisitoExpressao } from '../../types/poderes'
 import Card from '../Card'
@@ -65,13 +65,27 @@ function CardsRender({ poderes }: { poderes: Poder[] }) {
 
   const { filter } = context
 
+  // Memoiza os poderes filtrados para evitar recálculos desnecessários
+  const poderesFilterados = useMemo(() => {
+    return poderes.filter((poder) => isFiltered(poder, filter))
+  }, [poderes, filter])
+
+  // Memoiza a renderização dos cards
+  const cardsRenderizados = useMemo(() => {
+    return poderesFilterados.map((poder) => (
+      <Card key={poder.nome} poder={poder} />
+    ))
+  }, [poderesFilterados])
+
   return (
     <div className={styles.cardsWrapper}>
-      {poderes
-        .filter((card) => isFiltered(card, filter))
-        .map((card) => (
-          <Card key={card.nome} poder={card} />
-        ))}
+      {cardsRenderizados}
+      {poderesFilterados.length === 0 && (
+        <div className={styles.noResults}>
+          <p>Nenhum poder encontrado com os filtros aplicados.</p>
+          <p>Tente ajustar os critérios de busca.</p>
+        </div>
+      )}
     </div>
   )
 }

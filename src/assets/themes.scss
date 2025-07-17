@@ -1,0 +1,63 @@
+// Variáveis CSS para temas
+:root {
+  // Tema claro (padrão)
+  --background-primary: #f8f9fa;
+  --background-secondary: #ffffff;
+  --background-tertiary: #f1f3f4;
+
+  --text-primary: #212529;
+  --text-secondary: #6c757d;
+  --text-muted: #adb5bd;
+
+  --border-color: #dee2e6;
+  --border-light: #e9ecef;
+
+  --accent-color: #007bff;
+  --accent-hover: #0056b3;
+
+  --success-color: #28a745;
+  --warning-color: #ffc107;
+  --error-color: #dc3545;
+  --info-color: #17a2b8;
+
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.1);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1);
+
+  --focus-ring: rgba(0, 123, 255, 0.25);
+}
+
+// Tema escuro
+[data-theme='dark'] {
+  --background-primary: #1a1a1a;
+  --background-secondary: #2d2d2d;
+  --background-tertiary: #3a3a3a;
+
+  --text-primary: #ffffff;
+  --text-secondary: #b3b3b3;
+  --text-muted: #888888;
+
+  --border-color: #404040;
+  --border-light: #333333;
+
+  --accent-color: #4dabf7;
+  --accent-hover: #339af0;
+
+  --success-color: #51cf66;
+  --warning-color: #ffd43b;
+  --error-color: #ff6b6b;
+  --info-color: #22b8cf;
+
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.3);
+  --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.3);
+
+  --focus-ring: rgba(77, 171, 247, 0.25);
+}
+
+// Aplicação global dos temas
+body {
+  background-color: var(--background-primary);
+  color: var(--text-primary);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}

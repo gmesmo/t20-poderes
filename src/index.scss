@@ -1,4 +1,5 @@
 @use 'src/assets/cores.scss' as *;
+@use 'src/assets/themes.scss';
 
 * {
   margin: 0;
@@ -6,7 +7,7 @@
   box-sizing: border-box;
 
   font-family: 'Roboto', sans-serif;
-  color: var(--cor-texto);
+  color: var(--text-primary, #333333);
 }
 
 html {
